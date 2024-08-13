@@ -1,0 +1,31 @@
+{
+  "name": "@pprevankar/lib3",
+  "version": "1.0.0",
+  "description": "Checking lib3 package details",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprevankar/test-workspace.git"
+  },
+  "publishConfig": {
+    "@pprevankar:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "lib3"
+  ],
+  "author": "cret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprevankar/test-workspace/issues"
+  },
+  "homepage": "https://github.com/pprevankar/test-workspace#readme",
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "@pprevankar/lib2": "^1.0.0"
+  }
+}
